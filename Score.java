@@ -20,7 +20,6 @@ public class Score {
             tscore = tscore + sscore[i];
         }
         double Avg = tscore/10;
-        char grade;
         switch ((int) Avg) {
             case 85:
             case 86:
